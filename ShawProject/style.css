@@ -1,0 +1,245 @@
+body{
+    margin: auto;
+}
+
+.nav-wrapper{
+    background-color: #00b300;
+    padding: 5px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.nav-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-list li{
+    display: inline;
+    margin: 0;
+}
+
+.nav-list li a:hover{
+    background-color: darkorange;
+}
+
+.nav-list li a:active{
+    background-color: chartreuse;
+}
+
+.nav-list li a:active{
+    background-color: chartreuse;
+}
+
+.nav-list li a:visited{
+    background-color: darkviolet;
+}
+
+.nav-item{
+    color: aliceblue;
+}
+
+.form-container{
+    background-color: #232322;
+    width: 330px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: fixed;
+    bottom: -285px;
+    right: 0;
+    transition: .5s;
+}
+
+.form-container:hover{
+    bottom: 0;
+}
+
+#email-icon{
+    width: 30px;
+    margin-top: 5px;
+    /* padding: 0; */
+    float: left;
+}
+
+.form-head-container{
+    background-color: #000000;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.form-item{
+    margin-left: 15px;
+    color: white;
+    padding-left: 8px;
+}
+
+#subject{
+    height: 100px;
+    width: 200px;
+}
+
+#contact-us-label{
+    color: white;
+    margin-left: 35px;
+    /* text-align: justify; */
+    /* margin-top: 10px; */
+}
+
+#submit-btn{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    margin: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#submit-btn:hover{
+    background-color: darkorange;
+}
+
+#caption-1{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: white;
+    font-size: 3vw;
+    animation-name: caption-fade;
+    animation-duration: 5s;
+}
+
+#sub-head{
+    text-align: center;
+}
+
+@keyframes caption-fade {
+    0% {opacity: 0; top: 0}
+    100% {opacity: 1; top: 40%;}
+}
+
+.feature-wrapper {
+    position: relative;
+    display: flex;
+    overflow: auto;
+    justify-content: space-around;
+}
+
+.product-container{
+    background-color: #4caf50;
+    text-align: center;
+    max-width: 20%;
+    position: relative;
+    border-radius: 20px;
+    border-style: solid;
+    margin-top: 8px;
+    margin-bottom: 70px;
+    animation-name: product-container-anim;
+    animation-duration: 2s;
+    border-color: #4caf50;
+}
+
+@keyframes product-container-anim{
+    0% {opacity: 0; margin-top: 500px;}
+    100% {opacity: 1; margin-top: 8px;}
+}
+
+.product-container img{
+    max-width: 100%;
+    position: relative;
+    top: 36px;
+}
+
+.cart-text{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: -2%;
+}
+
+.btn-container{
+    background-color: white;
+    position: relative;
+    top: 1;
+    padding: 2%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.view-more-btn{
+    background-color: #4caf50;
+    max-width: 100%;
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 9px 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.view-more-btn:hover{
+    background-color: darkorange;
+}
+
+.social-media-container{
+    background-color: black;
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    width: 50px;
+}
+
+.social-media-container:hover{
+    cursor: pointer;
+}
+
+#facebook-icon{
+    background-color: #395598;
+    transition: .5s;
+    /* width: 150px; */
+}
+
+#facebook-icon:hover{
+    padding-left: 20%;
+}
+
+#twitter-icon{
+    background-color: #1cb7eb;
+    transition: .5s;
+    width: 200px;
+}
+
+#twitter-icon:hover{
+    padding-left: 20%;
+}
+
+#instagram-icon{
+    background-color: #8a3e5a;
+    transition: .5s;
+    /* color: white; */
+}
+
+#instagram-icon:hover{
+    padding-left: 20%;
+}
+
+.background-img{
+    width: 100%;
+}
